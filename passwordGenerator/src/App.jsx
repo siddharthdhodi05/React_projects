@@ -83,10 +83,10 @@ function App() {
       <div className="flex items-center gap-x-1">
             <input
         type="checkbox"
-        defaultChecked={setnumber}
+        defaultChecked={setcharacter}
         id="numberInput"
         onChange={() => {
-          setnumber((prev) => !prev)
+          setcharacter((prev) => !prev)
         }}
       />
       <label>Characters</label>
